@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage" 
+             xmlns:local ="clr-namespace:App1" >
+    <StackLayout>
+        <StackLayout.Children>
+
+            <Label x:Name="lblAccelX" Text="0"></Label>
+            <Label x:Name="lblAccelY" Text="0"></Label>
+            <Label x:Name="lblAccelZ" Text="0"></Label>
+            <Label x:Name="lblTime" Text=""></Label>
+            
+
+
+            <Button x:Name="btnStart" Text="Start" Clicked="BtnStart_Clicked" TextColor="Black"/>
+
+
+        </StackLayout.Children>
+    </StackLayout>
+</ContentPage>
